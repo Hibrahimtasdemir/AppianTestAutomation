@@ -1,5 +1,6 @@
 # SNAP Appian Maven TestNG Automation Framework!
 Appian automation framework with Appian-Selenium-API, Selenium, Java, Maven, TestNG, Extent Reporting and Page Factory implementation.
+
 ![SnapLogo](lib/logo.png)
 
 ## Introduction
