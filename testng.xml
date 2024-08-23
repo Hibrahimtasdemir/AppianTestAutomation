@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Testing Suite With Classes">
+    <listeners>
+        <listener class-name="snap.listeners.ReportListeners"></listener>
+    </listeners>
+    <test name="KM Tests"  parallel="methods" thread-count="4">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+			<!--Login Tests-->
+			<class name="nexus.testcases.login.LoginTest"/>
+            <!--Fill Form Tests-->
+            <class name="nexus.testcases.fill_form.FillFormTest"/>
+        </classes>
+    </test>
+</suite>
