@@ -34,3 +34,6 @@ test-output/
 
 # HTML files
 *.html
+
+# Exclude embedded git repo
+appian-selenium-api/

@@ -146,6 +146,15 @@ public class CommonMethods {
 			throw e;
 		}
 	}
+	public void EnterSearchText(String SearchTextArea) {
+		try{
+			fixture.searchFor(SearchTextArea);
+			ReportListeners.logStep("Entered Search Text: " + SearchTextArea);
+		}catch(Exception e){
+			ReportListeners.logStep("An error occurred while Entering Search Text: " + SearchTextArea + "' : " +  e);
+			throw e;
+		}
+	}
 
 	/**
 	 * Populates a field identified by its name with a given value.
