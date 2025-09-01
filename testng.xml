@@ -3,6 +3,7 @@
 <suite name="Parallel Testing Suite With Classes">
     <listeners>
         <listener class-name="snap.listeners.ReportListeners"></listener>
+        <listener class-name="snap.listeners.AllureReportListener"></listener>
     </listeners>
     <test name="KM Tests"  parallel="methods" thread-count="4">
         <parameter name="browser" value="chrome"/>
@@ -11,6 +12,7 @@
 			<class name="nexus.testcases.login.LoginTest"/>
             <!--Fill Form Tests-->
             <class name="nexus.testcases.fill_form.FillFormTest"/>
+            <class name="nexus.testcases.fill_form.SearchArea" />
         </classes>
     </test>
 </suite>

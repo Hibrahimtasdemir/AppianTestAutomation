@@ -39,6 +39,13 @@
 			<version>4.23.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.27.0</version>
+		</dependency>
+
+
 		<!-- TestNG -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -158,6 +165,15 @@
 				<plugin>
 					<artifactId>maven-clean-plugin</artifactId>
 					<version>3.1.0</version>
+				</plugin>
+
+				<plugin>
+					<groupId>io.qameta.allure</groupId>
+					<artifactId>allure-maven</artifactId>
+					<version>2.11.2</version>
+					<configuration>
+						<reportVersion>2.27.0</reportVersion>
+					</configuration>
 				</plugin>
 
 				<plugin>

@@ -1,0 +1,1 @@
+{"uuid":"d9a01987-c7b3-49e9-b750-4635f3245731","name":"Parallel Testing Suite With Classes","children":["38ee4050-36dd-4a67-b5cf-0f7ddb4d7e92"],"befores":[{"name":"beforeEverything","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1756722433784,"stop":1756722439125}],"afters":[],"start":1756722433770,"stop":1756722612405}
